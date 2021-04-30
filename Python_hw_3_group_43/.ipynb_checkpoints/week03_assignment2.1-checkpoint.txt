@@ -1,0 +1,13 @@
+### Assignment 2
+
+## 2.1 Understanding the concept
+
+# 1.
+
+The end keyword prints a string at the end of the print statement input. By default this would be newline. Thus, one could write into one line without a break.
+The print("\n") does exactly print this new line explicitly: here after every third number to create the grid.
+
+# 2.
+
+The outer loop starts (row = 0), then the inner loop (column = 0). Variable number is calculated for the first time (number = 0 * 3 + 0 + 1 = 1) and it is printed afterwards with 4 spaces indent and no newline (line break). The inner for-loop now iterates by 1 such that column now equals 1. Variable number is again calculated (number = 2) and printed with the same style. The same happens one more time for number = 3 and then the inner loop has fulfilled a whole cycle once. Now a newline print statement is used to get into a new line, basically starting the second row. Now row iterates by 1 (row = 1) and so on and so forth.
+As the range(3) function starts with 0, giving us the values 0, 1 and 2, we have to add 1 when calculating the number for our 1-9 grid.
