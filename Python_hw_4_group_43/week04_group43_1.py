@@ -1,28 +1,25 @@
-# Assignment 1.1 while
+# Task 4.1 - Warm-up exercises
+## Task 4.1.1 - while
+inp = ""
+### loop until the users input is "exit"
+while inp != "exit":
+    ### get input from user
+    inp = input("Please enter something: ")
 
-user_input = ""
-# loop until the user input equals string "exit"
-while user_input != "exit":
-    # Get user input
-    user_input = input("Please enter something: ")
-
-# Assignment 1.2 randint and print
-
-# import necessary packages
+## Task 4.1.2 - randint and print
+### import necessary method from package random
 from random import randint
-
-# for 100 steps, get random integer and concatenate to printed string
+### loop for 100 iterations
 for i in range(100):
-    random_number = randint(0,9)
-    print(str(random_number), end="")
-
+    ### choose random number between 0 and 9
+    random = randint(0,9)
+    ### and print and the chosen numbers in the same row
+    print(random, end = '')
 print("\n")
 
-# Assignment 1.3 type
-
-# loop until termination in console: ask for input and print data type
+## Task 4.1.3 - type
+### loop until termination via console
 while True:
-    i = input("Please enter something: ")
-    print(type(i))
-
-# the type will always be a string
+    inp = input("Please write something: ")
+    print(type(inp))
+# observation: the typed input given by the user is always of type string (even when nothing is entered at all)
