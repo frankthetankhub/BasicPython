@@ -4,7 +4,7 @@ inp = ""
 ### loop until the users input is "exit"
 while inp != "exit":
     ### get input from user
-    inp = input("Please enter something: ")
+    inp = input("Please enter something: \n")
 
 ## Task 4.1.2 - randint and print
 ### import necessary method from package random
@@ -20,6 +20,6 @@ print("\n")
 ## Task 4.1.3 - type
 ### loop until termination via console
 while True:
-    inp = input("Please write something: ")
+    inp = input("Please write something: \n")
     print(type(inp))
 # observation: the typed input given by the user is always of type string (even when nothing is entered at all)
