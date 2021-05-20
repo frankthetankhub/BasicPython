@@ -1,0 +1,25 @@
+# Assignment 1: Warm-up
+
+1.1 String recap
+
+1.
+
+This string uses words
+and lines
+
+<class 'str'>
+This string uses words
+and lines
+<class 'str'>
+['This', 'string', 'uses', 'words', 'and', 'lines']
+<class 'list'>
+['This string uses words', 'and lines']
+<class 'list'>
+
+The script first outputs the original sentence with two new lines as whitespace (after 'words' and after 'lines'). Then the data type of this object is printed, which is a string. After using the strip function and printing the result, the data type is still string, same as after using split, printing the result and data type (now list) and after using function splitlines, printing the result and data type (list).
+
+2. 
+
+The strip() function removes leading and trailing whitespace at the start and end of a string. Optionally a string can be given as an argument that our object should be stripped off by.
+The split() function creates a list from the string, containing each word that is separated by whitespace as a single value.
+The splitlines() function does the same as split() but now the list contains values that are separated by a new line in the original string.
