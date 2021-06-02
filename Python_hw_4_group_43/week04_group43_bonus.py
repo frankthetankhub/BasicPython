@@ -2,7 +2,6 @@
 # libraries
 import matplotlib.pyplot as plt
 import numpy as np
-from math import sqrt
 
 # create lists for the prime numbers and their distances
 prime_distances = []
@@ -26,7 +25,7 @@ def is_prime(number):
     # if the trial division was unsuccessful the checked number is a prime number
     return True
 
-# while condition for all prime numbers up t 100000
+# while condition for all prime numbers up to 100000
 while current <= 100000:
     # if the currently viewed number is a prime number it is appended to the found prime numbers
     if is_prime(current):
